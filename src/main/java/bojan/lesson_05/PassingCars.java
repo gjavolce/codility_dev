@@ -48,7 +48,32 @@ package bojan.lesson_05;
 
 public class PassingCars {
     public int solution(int[] A) {
-        return 0;
+
+        int sumZero = 0;
+
+        int sumTotal = 0;
+
+        for (int i = 0; i < A.length; i++) {
+
+            if (A[i] == 0) {
+
+                sumZero++;
+
+            } else {
+
+                sumTotal += sumZero;
+
+            }
+
+            if (sumTotal > 1_000_000_000) {
+
+                return -1;
+
+            }
+
+        }
+
+        return sumTotal;
     }
 
 }

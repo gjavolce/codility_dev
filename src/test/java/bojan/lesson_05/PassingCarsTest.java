@@ -10,11 +10,11 @@ import java.util.Arrays;
 
 public class PassingCarsTest {
 
-    private MaxCounters maxCounters;
+    private PassingCars passingCars;
 
     @BeforeEach
     void setUp() {
-        maxCounters = new MaxCounters();
+        passingCars = new PassingCars();
     }
 
     @AfterEach
@@ -24,10 +24,27 @@ public class PassingCarsTest {
     @Test
     void test_01() {
 
+        int[] x = {0, 1, 0, 1, 1};
+
+        Assert.that(passingCars.solution(x) == 5, "ok");
+
     }
 
     @Test
     void test_02() {
+
+        int[] x = {0, 1};
+
+        Assert.that(passingCars.solution(x) == 1, "ok");
+
+    }
+
+    @Test
+    void test_03() {
+
+        int[] x = {0, 1, 0, 1};
+
+        Assert.that(passingCars.solution(x) == 3, "ok");
 
     }
 

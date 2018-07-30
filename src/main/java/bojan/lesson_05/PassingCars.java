@@ -48,6 +48,10 @@ package bojan.lesson_05;
 
 public class PassingCars {
     public int solution(int[] A) {
+
+        final int EAST = 0;
+        final int WEST = 1;
+
         return 0;
     }
 

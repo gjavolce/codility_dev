@@ -41,4 +41,16 @@ public class FrogRiverOneTest {
 
 
     }
+
+    @Test
+    void test_03() {
+
+        int[] testArray = {5, 4, 3, 2, 1};
+
+        int x = 7;
+
+        Assert.that(frogRiverOne.solution(x, testArray) == -1, "step -1");
+
+
+    }
 }

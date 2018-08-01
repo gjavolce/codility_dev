@@ -1,4 +1,4 @@
-package bojan.lesson_04;
+package bojan.codility.lesson_04;
 
 /**
  * You are given N counters, initially set to 0, and you have two possible operations on them:

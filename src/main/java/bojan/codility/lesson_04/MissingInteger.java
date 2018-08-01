@@ -1,4 +1,4 @@
-package bojan.lesson_04;
+package bojan.codility.lesson_04;
 
 import java.util.HashSet;
 import java.util.Set;

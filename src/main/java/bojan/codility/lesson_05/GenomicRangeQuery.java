@@ -1,4 +1,4 @@
-package bojan.lesson_05;
+package bojan.codility.lesson_05;
 
 /**
  * A DNA sequence can be represented as a string consisting of the letters A, C, G and T,

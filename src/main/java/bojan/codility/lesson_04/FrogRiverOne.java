@@ -1,4 +1,4 @@
-package bojan.lesson_04;
+package bojan.codility.lesson_04;
 
 /**
  * A small frog wants to get to the other side of a river.

@@ -1,4 +1,4 @@
-package bojan.lesson_05;
+package bojan.codility.lesson_05;
 
 /**
  * A non-empty array A consisting of N integers is given.

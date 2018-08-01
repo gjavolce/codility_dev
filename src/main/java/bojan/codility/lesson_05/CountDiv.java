@@ -1,4 +1,4 @@
-package bojan.lesson_05;
+package bojan.codility.lesson_05;
 
 /**
  * Write a function:

@@ -1,12 +1,9 @@
-package bojan.lesson_05;
+package bojan.codility.lesson_05;
 
-import bojan.lesson_04.MaxCounters;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import sun.jvm.hotspot.utilities.Assert;
-
-import java.util.Arrays;
 
 public class PassingCarsTest {
 

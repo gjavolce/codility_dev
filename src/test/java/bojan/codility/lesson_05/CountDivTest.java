@@ -1,4 +1,4 @@
-package bojan.lesson_05;
+package bojan.codility.lesson_05;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
